@@ -1,0 +1,7 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemini-3.5-transcribe",
+  "options": {
+    "timeout": 180
+  }
+}

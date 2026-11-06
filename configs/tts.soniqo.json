@@ -1,0 +1,9 @@
+{
+  "provider": "soniqo",
+  "model": "customVoice",
+  "options": {
+    "engine": "qwen3",
+    "speaker": "Vivian",
+    "timeout": 1800
+  }
+}

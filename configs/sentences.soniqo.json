@@ -1,0 +1,22 @@
+{
+  "language": "Japanese",
+  "asr": {
+    "provider": "soniqo",
+    "model": "0.6B",
+    "options": {"engine": "qwen3", "timeout": 1800}
+  },
+  "aligner": {
+    "provider": "soniqo",
+    "model": "aufklarer/Qwen3-ForcedAligner-0.6B-4bit",
+    "options": {"engine": "mlx", "timeout": 1800}
+  },
+  "vad": {
+    "provider": "soniqo",
+    "options": {"engine": "mlx", "min_silence": 0.3}
+  },
+  "llm": null,
+  "tts": null,
+  "window_seconds": 24,
+  "context_seconds": 0.6,
+  "channel": "mix"
+}

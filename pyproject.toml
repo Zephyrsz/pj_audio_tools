@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-tools"
+version = "0.3.0"
+description = "模块化语音工具集：ASR、TTS、LLM、VAD、对齐与长音频切句 pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+voice-tools = "voice_tools.__main__:main"
+voice-tools-asr-batch = "voice_tools.batch_asr:main"
+
+[tool.setuptools.packages.find]
+include = ["voice_tools*"]
